@@ -8,7 +8,7 @@ load_dotenv(os.path.join(basedir, ".env"))
 
 
 class Config(object):
-    JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+    JWT_SECRET_KEY = os.getenv("c7d57142e46f169ce9dbeb8d96603e46")
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=4)
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     API_TITLE = "Rest API"
